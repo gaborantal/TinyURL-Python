@@ -1,9 +1,10 @@
 # tinyurl-python
-Python module to create short links from tinyurl.com
+[![Build Status](https://travis-ci.org/gaborantal/TinyURL-Python.svg?branch=master)](https://travis-ci.org/gaborantal/TinyURL-Python)
+Python module to create short links with tinyurl.com
 
 # Installation
 ```sh
-git clone https://github.com/daxeel/TinyURL-Python.git
+git clone https://github.com/gaborantal/TinyURL-Python.git
 ```
 ```sh
 cd TinyURL-Python
@@ -21,8 +22,8 @@ python setup.py install
 >>> http://www.abc.com/xyz
 ```
 ```py
->>> print tinyurl.shorten("www.abc.com", "")
+>>> print tinyurl.shorten("www.abc.com")
 >>> http://www.abc.com/wxghf
 ```
-<p>Here, tinyurl has shorten function which takes two parameters. First is URL which you want to short and second one is custome name.</p>
-<p>Leave blank second argument if you want random alias.</p>
+Here, tinyurl has shorten function which takes two parameters. First is URL which you want to short and second one is custome name.
+Do not pass any second argument if you want a random alias.
